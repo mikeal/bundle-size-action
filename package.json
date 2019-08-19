@@ -1,0 +1,22 @@
+{
+  "name": "modulesize",
+  "version": "0.0.0",
+  "description": "Calculate a module's bundle size.",
+  "main": "index.js",
+  "bin": {
+    "modulesize": "cli.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
+  "license": "(Apache-2.0 AND MIT)",
+  "dependencies": {
+    "standard": "^13.1.0",
+    "tmpfile": "^0.2.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "yargs": "^13.3.0"
+  }
+}
