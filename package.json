@@ -1,10 +1,10 @@
 {
-  "name": "modulesize",
+  "name": "bundle-size-action",
   "version": "0.0.0",
-  "description": "Calculate a module's bundle size.",
+  "description": "Calculate a module's bundle size from GitHub Actions.",
   "main": "index.js",
   "bin": {
-    "modulesize": "cli.js"
+    "bundle-size-action": "cli.js"
   },
   "scripts": {
     "test": "standard"
@@ -18,5 +18,17 @@
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
     "yargs": "^13.3.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeal/modulesize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeal/modulesize/issues"
+  },
+  "homepage": "https://github.com/mikeal/modulesize#readme"
 }
