@@ -12,6 +12,8 @@ const inputOption = yargs => {
 const runSizes = async argv => {
   const output = tmpfile({ suffix: '.js' })
   const { stdout, stderr } = await modulesize.compile(argv.input, output)
+  process.stdout.write(stdout)
+  process.stderr.write(stderr)
   const data = fs.readFileSync(output)
   const sizes = await modulesize.counts(data)
   console.log(sizes)
@@ -29,7 +31,7 @@ const runReadme = async argv => {
       else return l
     }).join('\n')
   } else {
-    let insert = readme.indexOf('\n') + 1
+    const insert = readme.indexOf('\n') + 1
     readme = readme.slice(0, insert) + '\n' + str + '\n' + readme.slice(insert)
   }
   fs.writeFileSync('README.md', readme)

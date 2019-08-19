@@ -11,7 +11,7 @@ jobs:
       with:
         args: install
     - name: Test
-      uses: ianwalter/puppeteer@master
+      uses: actions/npm@master
       with:
         entrypoint: npm
         args: test

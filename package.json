@@ -13,7 +13,6 @@
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
   "license": "(Apache-2.0 AND MIT)",
   "dependencies": {
-    "standard": "^13.1.0",
     "tmpfile": "^0.2.0",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
@@ -22,7 +21,9 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikeal/modulesize.git"
