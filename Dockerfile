@@ -6,7 +6,7 @@ LABEL homepage="http://github.com/mikeal/bundle-size-action"
 LABEL maintainer="Mikeal Rogers <mikeal.rogers@gmail.com>"
 
 LABEL com.github.actions.name="GitHub Action for JS Bundle Size"
-LABEL com.github.actions.description="Creates a bundle and adds size information where relevant."
+LABEL com.github.actions.description="Compiles a bundle and ads size information to readme."
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="red"
 
