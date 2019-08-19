@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const modulesize = require('./')
 const tmpfile = require('tmpfile')
 const fs = require('fs')
